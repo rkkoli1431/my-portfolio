@@ -2,6 +2,7 @@ import React from "react";
 import { ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import { personalInfo } from "../data/portfolioData";
+import rk from "../assets/rk.jpg";
 
 const About = () => {
   return (
@@ -31,7 +32,7 @@ const About = () => {
           >
             <div className="w-full h-full rounded-3xl overflow-hidden bg-gray-900">
               <img
-                src="src/assets/rk.jpg"
+                src={rk}
                 alt={personalInfo.name}
                 className="w-full h-full object-cover rounded-3xl hover:scale-110 transition-transform duration-700 ease-out"
               />

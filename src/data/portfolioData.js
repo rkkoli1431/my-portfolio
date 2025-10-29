@@ -1,4 +1,7 @@
 import { Code, Palette, Database, Server, Code2 , Globe } from 'lucide-react';
+import druFruitImage from "../assets/dryfruit.png";
+import hinduConnect from "../assets/hinduconnect.png";
+
 
 export const skills = [
   { name: 'HTML5', icon: Code, color: 'from-orange-500 to-red-500' },
@@ -20,7 +23,7 @@ export const projects = [
     title: 'E-Commerce Platform',
     description: 'A full-featured e-commerce platform with user authentication, product management, shopping cart, and payment integration.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MYSQL'],
-    image: '/src/assets/dryfruit.png',
+    image: druFruitImage,
     github: 'https://github.com/rkkoli1431',
     live: 'https://dryfruitbox.co.in/'
   },
@@ -28,7 +31,7 @@ export const projects = [
     title: 'Social Media Dashboard',
     description: 'An interactive dashboard for managing social media accounts with analytics, scheduling posts, and engagement tracking.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MYSQL'],
-    image: '/src/assets/hinduconnect.png',
+    image: hinduConnect,
     github: 'https://github.com/rkkoli1431',
     live: 'https://hinduconnect.co.in/'
   },
