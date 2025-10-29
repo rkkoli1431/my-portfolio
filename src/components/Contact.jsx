@@ -101,7 +101,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center space-x-4">
               <Phone className="w-5 h-5 text-blue-400" />
-              <span>{personalInfo.phone || "+91 98765 43210"}</span>
+              <span>{personalInfo.phone || "+91 7066677802"}</span>
             </div>
             <div className="flex items-center space-x-4">
               <MapPin className="w-5 h-5 text-blue-400" />

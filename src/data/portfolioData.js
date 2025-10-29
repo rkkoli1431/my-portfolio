@@ -38,10 +38,10 @@ export const projects = [
   {
     title: 'Task Management App',
     description: 'A collaborative task management application with real-time updates, team collaboration, and project tracking features.',
-    technologies: ['React', 'Node.js', 'Socket.io', 'PostgreSQL'],
+    technologies: ['React', 'Node.js', 'Express Js', 'MongoDB'],
     image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
-    github: 'https://github.com/tejaskhairnar',
-    live: 'https://portfolio-eight-delta-98.vercel.app/'
+    github: 'https://github.com/rkkoli1431',
+    live: ''
   },
 
 ];
