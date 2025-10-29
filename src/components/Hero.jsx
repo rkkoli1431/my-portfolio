@@ -2,6 +2,8 @@ import React from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import { personalInfo } from "../data/portfolioData";
+import rk from "../assets/rk.jpg";
+
 
 const Hero = () => {
   const scrollToSection = (id) => {
@@ -34,7 +36,7 @@ const Hero = () => {
           <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-[3px] shadow-lg shadow-blue-500/20 hover:scale-105 transition-transform duration-300">
             <div className="w-full h-full rounded-full bg-gray-900 overflow-hidden">
               <img
-                src="src/assets/rk.jpg"
+                src={rk} 
                 alt={personalInfo.name}
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
               />
