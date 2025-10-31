@@ -1,6 +1,7 @@
 import { Code, Palette, Database, Server, Code2 , Globe } from 'lucide-react';
 import druFruitImage from "../assets/dryfruit.png";
 import hinduConnect from "../assets/hinduconnect.png";
+import devTinder from "../assets/devTinder.png";
 
 
 export const skills = [
@@ -20,26 +21,26 @@ export const skills = [
 
 export const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with user authentication, product management, shopping cart, and payment integration.',
+    title: 'DryFruitHut',
+    description: 'An eCommerce web application for purchasing premium dry fruits. Built using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap with features like product management, cart operations, discounts, and secure checkout',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MYSQL'],
     image: druFruitImage,
     github: 'https://github.com/rkkoli1431',
     live: 'https://dryfruitbox.co.in/'
   },
   {
-    title: 'Social Media Dashboard',
-    description: 'An interactive dashboard for managing social media accounts with analytics, scheduling posts, and engagement tracking.',
+    title: 'HinduConnect',
+    description: 'A web platform promoting cultural awareness and spiritual values, enabling users to explore traditions, events, and teachings that preserve and connect with Hindu heritage',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MYSQL'],
     image: hinduConnect,
     github: 'https://github.com/rkkoli1431',
     live: 'https://hinduconnect.co.in/'
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, team collaboration, and project tracking features.',
+    title: 'DevTinder',
+    description: 'ConnectHub is a Tinder-inspired social networking platform that allows users to connect and interact with each other. The system includes secure authentication, friend request management, and real-time user interactions. Users can sign up, log in, send and accept friend requests, ignore unwanted requests, and update their personal profiles with ease',
     technologies: ['React', 'Node.js', 'Express Js', 'MongoDB'],
-    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop',
+    image: devTinder,
     github: 'https://github.com/rkkoli1431',
     live: ''
   },
@@ -50,7 +51,7 @@ export const personalInfo = {
   name: 'Rahul Koli',
   title: 'Full Stack Developer',
   tagline: 'with a passion for creating exceptional web experiences',
-  education: 'Masters In Computer Application',
+  education: 'I - Master of Computer Applications',
   experience: '6 Month',
   cvLink: 'https://drive.google.com/file/d/1sC8wMoVxv_kR2G_2e5ubN7LSq2zslRV3/view?usp=drive_link',
   github: 'https://github.com/rkkoli1431',
