@@ -53,7 +53,7 @@ export const personalInfo = {
   tagline: 'with a passion for creating exceptional web experiences',
   education: 'I - Master of Computer Applications',
   experience: '6 Month',
-  cvLink: 'https://drive.google.com/file/d/1sC8wMoVxv_kR2G_2e5ubN7LSq2zslRV3/view?usp=drive_link',
+  cvLink: '',
   github: 'https://github.com/rkkoli1431',
   linkedin: 'https://www.linkedin.com/in/rahul-koli-1a6a02229/',
   email: 'rahulkoli9320@gmail.com'
